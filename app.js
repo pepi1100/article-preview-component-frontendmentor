@@ -9,7 +9,7 @@ const sharedBtnActive = document.getElementById("shareBtnActive")
 const linksDesktop = document.querySelector('.links')
 let shareMobile = function () {
 
-    if (viewportSize <= 375) {
+    if (viewportSize <= 1044) {
         if (shareSection.style.display === 'none') {
             shareSection.style.display = 'flex'
         } else {
